@@ -1,0 +1,21 @@
+{
+  "name": "account-service",
+  "version": "1.0.0",
+  "description": "Microservice quản lý tài khoản (nhân viên, thực khách)",
+  "main": "src/services/server.js",
+  "scripts": {
+    "start": "node src/services/server.js",
+    "dev": "nodemon src/services/server.js",
+    "import": "node src/services/import-data.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^7.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.0"
+  }
+}

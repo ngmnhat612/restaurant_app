@@ -1,0 +1,18 @@
+[
+  { 
+    "DishTypeCode": "LAU", 
+    "DishTypeName": "Lẩu"
+  },
+  { 
+    "DishTypeCode": "KHAIVI", 
+    "DishTypeName": "Món khai vị"
+  },
+  { 
+    "DishTypeCode": "GOITHEM", 
+    "DishTypeName": "Món gọi thêm"
+  },
+  { 
+    "DishTypeCode": "THUCUONG", 
+    "DishTypeName": "Thức uống"
+  }
+]

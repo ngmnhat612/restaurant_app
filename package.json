@@ -1,0 +1,25 @@
+{
+  "name": "restaurant-system",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "concurrently \"npm run dev:menu\" \"npm run dev:order\" \"npm run dev:account\" \"npm run dev:frontend\" \"npm run dev:gateway\"",
+
+    "dev:menu": "npm run import --prefix menu-service && npm run dev --prefix menu-service",
+    "dev:order": "npm run import --prefix order-service && npm run dev --prefix order-service",
+    "dev:account": "npm run import --prefix account-service && npm run dev --prefix account-service",
+    "dev:frontend": "cd frontend && npm run dev",
+    "dev:gateway": "cd api-gateway && npm run dev",
+
+    "start": "npm-run-all --parallel start:menu start:order start:account start:frontend start:gateway",
+    "start:menu": "cd menu-service && npm start",
+    "start:order": "cd order-service && npm start",
+    "start:account": "cd account-service && npm start",
+    "start:frontend": "cd frontend && npm start",
+    "start:gateway": "cd api-gateway && npm start"
+  },
+  "devDependencies": {
+    "concurrently": "^8.0.0",
+    "npm-run-all": "^4.1.5"
+  }
+}

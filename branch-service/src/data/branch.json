@@ -1,0 +1,20 @@
+[
+  {
+    "BranchID": "BR001",
+    "BranchCode": "NT",
+    "BranchName": "Chi nhánh Nha Trang",
+    "BranchAddress": "22 Nguyễn Đình Chiểu, Vĩnh Phước, Nha Trang, Khánh Hòa",
+    "BranchPhone": "0123456789",
+    "BranchStatus": "Hoạt động",
+    "BranchCreatedTime": "2024-01-01T08:00:00Z"
+  },
+  {
+    "BranchID": "BR002",
+    "BranchCode": "HCM",
+    "BranchName": "Chi nhánh TPHCM",
+    "BranchAddress": "19 Nguyễn Hữu Thọ, Tân Phong, Quận 7, Thành phố Hồ Chí Minh",
+    "BranchPhone": "0123456789",
+    "BranchStatus": "Hoạt động",
+    "BranchCreatedTime": "2024-01-01T08:00:00Z"
+  }
+]

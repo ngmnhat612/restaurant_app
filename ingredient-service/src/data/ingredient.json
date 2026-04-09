@@ -1,0 +1,23 @@
+[
+  { "IngredientID": "ING001", "IngredientName": "Thịt ba chỉ", "Unit": "kg", "Category": "Thịt" },
+  { "IngredientID": "ING002", "IngredientName": "Thịt heo nạc", "Unit": "kg", "Category": "Thịt" },
+  { "IngredientID": "ING003", "IngredientName": "Tôm tươi", "Unit": "kg", "Category": "Hải sản" },
+  { "IngredientID": "ING004", "IngredientName": "Rau cải", "Unit": "kg", "Category": "Rau" },
+  { "IngredientID": "ING005", "IngredientName": "Nấm", "Unit": "kg", "Category": "Rau" },
+  { "IngredientID": "ING006", "IngredientName": "Kim chi", "Unit": "kg", "Category": "Gia vị" },
+  { "IngredientID": "ING007", "IngredientName": "Bún tươi", "Unit": "kg", "Category": "Tinh bột" },
+  { "IngredientID": "ING008", "IngredientName": "Khoai tây", "Unit": "kg", "Category": "Rau củ" },
+  { "IngredientID": "ING009", "IngredientName": "Cà chua", "Unit": "kg", "Category": "Rau củ" },
+  { "IngredientID": "ING010", "IngredientName": "Ớt khô Mala", "Unit": "kg", "Category": "Gia vị" },
+  { "IngredientID": "ING011", "IngredientName": "Bào ngư", "Unit": "kg", "Category": "Hải sản" },
+  { "IngredientID": "ING012", "IngredientName": "Cá mút đá", "Unit": "kg", "Category": "Hải sản" },
+  { "IngredientID": "ING013", "IngredientName": "Salad rau củ", "Unit": "kg", "Category": "Rau" },
+  { "IngredientID": "ING014", "IngredientName": "Bánh tráng", "Unit": "kg", "Category": "Tinh bột" },
+  { "IngredientID": "ING015", "IngredientName": "Hải sản tổng hợp", "Unit": "kg", "Category": "Hải sản" },
+  { "IngredientID": "ING016", "IngredientName": "Coca-Cola", "Unit": "lon", "Category": "Thức uống" },
+  { "IngredientID": "ING017", "IngredientName": "Bia Heineken", "Unit": "chai", "Category": "Thức uống" },
+  { "IngredientID": "ING018", "IngredientName": "Nước suối Lavie", "Unit": "chai", "Category": "Thức uống" },
+  { "IngredientID": "ING019", "IngredientName": "Trà", "Unit": "kg", "Category": "Thức uống" },
+  { "IngredientID": "ING020", "IngredientName": "Bia Tiger", "Unit": "chai", "Category": "Thức uống" },
+  { "IngredientID": "ING021", "IngredientName": "7 UP", "Unit": "lon", "Category": "Thức uống" }
+]

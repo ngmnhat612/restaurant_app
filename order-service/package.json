@@ -1,0 +1,20 @@
+{
+  "name": "order-service",
+  "version": "1.0.0",
+  "description": "Microservice quản lý đơn hàng & hóa đơn",
+  "main": "src/services/server.js",
+  "scripts": {
+    "start": "node src/services/server.js",
+    "dev": "nodemon src/services/server.js",
+    "import": "node src/services/import-data.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "mongoose": "^7.0.0",
+    "socket.io": "^4.7.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.0"
+  }
+}

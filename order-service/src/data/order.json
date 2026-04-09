@@ -1,0 +1,313 @@
+[
+  {
+    "OrderID": "O00001",
+    "BillID": "B00001",
+    "BranchID": "BR001",
+    "TableNumber": 1,
+    "OrderCreatedTime": "2025-10-02T10:05:00Z",
+    "OrderStatus": "Đã hoàn thành",
+    "OrderTotalAmount": 410000,
+    "OrderDetails": [
+      { "DishName": "Lẩu Kim chi", "Quantity": 1, "Total": 380000, "Status": "Đã phục vụ", "Note": "" },
+      { "DishName": "Coca-Cola lon", "Quantity": 1, "Total": 20000, "Status": "Đã phục vụ", "Note": "" },
+      { "DishName": "Trà đá", "Quantity": 2, "Total": 10000, "Status": "Đã phục vụ", "Note": "" }
+    ]
+  },
+  {
+    "OrderID": "O00002",
+    "BillID": "B00001",
+    "BranchID": "BR001",
+    "TableNumber": 1,
+    "OrderCreatedTime": "2025-10-02T14:20:00Z",
+    "OrderStatus": "Đã hoàn thành",
+    "OrderTotalAmount": 390000,
+    "OrderDetails": [
+      { "DishName": "Lẩu Đài Bắc", "Quantity": 2, "Total": 360000, "Status": "Đã phục vụ", "Note": "" },
+      { "DishName": "Rau thêm", "Quantity": 1, "Total": 20000, "Status": "Đã phục vụ", "Note": "" },
+      { "DishName": "Trà đá", "Quantity": 2, "Total": 10000, "Status": "Đã phục vụ", "Note": "" }
+    ]
+  },
+  {
+    "OrderID": "O00003",
+    "BillID": "B00002",
+    "BranchID": "BR001",
+    "TableNumber": 2,
+    "OrderCreatedTime": "2025-10-02T11:10:00Z",
+    "OrderStatus": "Đã hoàn thành",
+    "OrderTotalAmount": 400000,
+    "OrderDetails": [
+      { "DishName": "Lẩu Nấm", "Quantity": 1, "Total": 330000, "Status": "Đã phục vụ", "Note": "" },
+      { "DishName": "Thịt ba chỉ", "Quantity": 1, "Total": 60000, "Status": "Đã phục vụ", "Note": "" },
+      { "DishName": "Trà đá", "Quantity": 2, "Total": 10000, "Status": "Đã phục vụ", "Note": "" }
+    ]
+  },
+  {
+    "OrderID": "O00004",
+    "BillID": "B00002",
+    "BranchID": "BR001",
+    "TableNumber": 2,
+    "OrderCreatedTime": "2025-10-02T20:15:00Z",
+    "OrderStatus": "Chưa hoàn thành",
+    "OrderTotalAmount": 600000,
+    "OrderDetails": [
+      { "DishName": "Lẩu Kim chi", "Quantity": 1, "Total": 380000, "Status": "Chưa phục vụ", "Note": "" },
+      { "DishName": "Thịt heo", "Quantity": 2, "Total": 100000, "Status": "Chưa phục vụ", "Note": "" },
+      { "DishName": "Bia Heineken", "Quantity": 3, "Total": 105000, "Status": "Chưa phục vụ", "Note": "" },
+      { "DishName": "Trà đá", "Quantity": 3, "Total": 15000, "Status": "Chưa phục vụ", "Note": "" }
+    ]
+  },
+  {
+    "OrderID": "O00005",
+    "BillID": "B00003",
+    "BranchID": "BR001",
+    "TableNumber": 3,
+    "OrderCreatedTime": "2025-10-02T13:25:00Z",
+    "OrderStatus": "Đã hoàn thành",
+    "OrderTotalAmount": 245000,
+    "OrderDetails": [
+      { "DishName": "Lẩu Đài Bắc", "Quantity": 1, "Total": 180000, "Status": "Đã phục vụ", "Note": "" },
+      { "DishName": "Khoai tây chiên", "Quantity": 1, "Total": 30000, "Status": "Đã phục vụ", "Note": "" },
+      { "DishName": "Coca-Cola lon", "Quantity": 1, "Total": 20000, "Status": "Đã phục vụ", "Note": "" },
+      { "DishName": "Trà đá", "Quantity": 3, "Total": 15000, "Status": "Đã phục vụ", "Note": "" }
+    ]
+  },
+  {
+    "OrderID": "O00006",
+    "BillID": "B00004",
+    "BranchID": "BR001",
+    "TableNumber": 4,
+    "OrderCreatedTime": "2025-10-02T10:40:00Z",
+    "OrderStatus": "Đã hoàn thành",
+    "OrderTotalAmount": 575000,
+    "OrderDetails": [
+      { "DishName": "Lẩu Mộc Thanh Trà", "Quantity": 1, "Total": 210000, "Status": "Đã phục vụ", "Note": "" },
+      { "DishName": "Thịt ba chỉ", "Quantity": 2, "Total": 120000, "Status": "Đã phục vụ", "Note": "" },
+      { "DishName": "Rau thêm", "Quantity": 3, "Total": 60000, "Status": "Đã phục vụ", "Note": "" },
+      { "DishName": "Coca-Cola lon", "Quantity": 2, "Total": 40000, "Status": "Đã phục vụ", "Note": "" },
+      { "DishName": "Gỏi cuốn tôm thịt", "Quantity": 1, "Total": 65000, "Status": "Đã phục vụ", "Note": "" }
+    ]
+  },
+  {
+    "OrderID": "O00007",
+    "BillID": "B00004",
+    "BranchID": "BR001",
+    "TableNumber": 4,
+    "OrderCreatedTime": "2025-10-02T15:05:00Z",
+    "OrderStatus": "Đã hoàn thành",
+    "OrderTotalAmount": 390000,
+    "OrderDetails": [
+      { "DishName": "Lẩu Kim chi", "Quantity": 1, "Total": 380000, "Status": "Đã phục vụ", "Note": "" },
+      { "DishName": "Trà đá", "Quantity": 2, "Total": 10000, "Status": "Đã phục vụ", "Note": "" }
+    ]
+  },
+  {
+    "OrderID": "O00008",
+    "BillID": "B00004",
+    "BranchID": "BR001",
+    "TableNumber": 4,
+    "OrderCreatedTime": "2025-10-02T19:30:00Z",
+    "OrderStatus": "Chưa hoàn thành",
+    "OrderTotalAmount": 540000,
+    "OrderDetails": [
+      { "DishName": "Lẩu Mộc Thanh Trà", "Quantity": 2, "Total": 420000, "Status": "Chưa phục vụ", "Note": "" },
+      { "DishName": "Coca-Cola lon", "Quantity": 2, "Total": 40000, "Status": "Chưa phục vụ", "Note": "" },
+      { "DishName": "Khoai tây chiên", "Quantity": 1, "Total": 30000, "Status": "Chưa phục vụ", "Note": "" },
+      { "DishName": "Trà đá", "Quantity": 1, "Total": 5000, "Status": "Chưa phục vụ", "Note": "" }
+    ]
+  },
+  {
+    "OrderID": "O00009",
+    "BillID": "B00005",
+    "BranchID": "BR001",
+    "TableNumber": 5,
+    "OrderCreatedTime": "2025-10-02T16:45:00Z",
+    "OrderStatus": "Đã hoàn thành",
+    "OrderTotalAmount": 250000,
+    "OrderDetails": [
+      { "DishName": "Lẩu Đài Bắc", "Quantity": 1, "Total": 180000, "Status": "Đã phục vụ", "Note": "" },
+      { "DishName": "Chả giò hải sản", "Quantity": 1, "Total": 70000, "Status": "Đã phục vụ", "Note": "" },
+      { "DishName": "Coca-Cola lon", "Quantity": 2, "Total": 40000, "Status": "Đã phục vụ", "Note": "" },
+      { "DishName": "Trà đá", "Quantity": 2, "Total": 10000, "Status": "Đã phục vụ", "Note": "" }
+    ]
+  },
+  {
+    "OrderID": "O00010",
+    "BillID": "B00006",
+    "BranchID": "BR001",
+    "TableNumber": 6,
+    "OrderCreatedTime": "2025-10-02T10:20:00Z",
+    "OrderStatus": "Đã hoàn thành",
+    "OrderTotalAmount": 440000,
+    "OrderDetails": [
+      { "DishName": "Lẩu Kim chi", "Quantity": 1, "Total": 380000, "Status": "Đã phục vụ", "Note": "" },
+      { "DishName": "Nước suối Lavie", "Quantity": 2, "Total": 30000, "Status": "Đã phục vụ", "Note": "" },
+      { "DishName": "Trà đá", "Quantity": 6, "Total": 30000, "Status": "Đã phục vụ", "Note": "" }
+    ]
+  },
+  {
+    "OrderID": "O00011",
+    "BillID": "B00006",
+    "BranchID": "BR001",
+    "TableNumber": 6,
+    "OrderCreatedTime": "2025-10-02T17:10:00Z",
+    "OrderStatus": "Đã hoàn thành",
+    "OrderTotalAmount": 510000,
+    "OrderDetails": [
+      { "DishName": "Lẩu Mộc Thanh Trà", "Quantity": 1, "Total": 210000, "Status": "Đã phục vụ", "Note": "" },
+      { "DishName": "Lẩu Đài Bắc", "Quantity": 1, "Total": 180000, "Status": "Đã phục vụ", "Note": "" },
+      { "DishName": "Coca-Cola lon", "Quantity": 3, "Total": 60000, "Status": "Đã phục vụ", "Note": "" },
+      { "DishName": "Trà đá", "Quantity": 4, "Total": 20000, "Status": "Đã phục vụ", "Note": "" }
+    ]
+  },
+  {
+    "OrderID": "O00012",
+    "BillID": "B00007",
+    "BranchID": "BR001",
+    "TableNumber": 7,
+    "OrderCreatedTime": "2025-10-02T11:30:00Z",
+    "OrderStatus": "Đã hoàn thành",
+    "OrderTotalAmount": 200000,
+    "OrderDetails": [
+      { "DishName": "Lẩu Nấm", "Quantity": 1, "Total": 330000, "Status": "Đã phục vụ", "Note": "" },
+      { "DishName": "Trà đá", "Quantity": 14, "Total": 70000, "Status": "Đã phục vụ", "Note": "" }
+    ]
+  },
+  {
+    "OrderID": "O00013",
+    "BillID": "B00007",
+    "BranchID": "BR001",
+    "TableNumber": 7,
+    "OrderCreatedTime": "2025-10-02T15:50:00Z",
+    "OrderStatus": "Đã hoàn thành",
+    "OrderTotalAmount": 450000,
+    "OrderDetails": [
+      { "DishName": "Lẩu Kim chi", "Quantity": 1, "Total": 380000, "Status": "Đã phục vụ", "Note": "" },
+      { "DishName": "Bia Heineken", "Quantity": 2, "Total": 70000, "Status": "Đã phục vụ", "Note": "" }
+    ]
+  },
+  {
+    "OrderID": "O00014",
+    "BillID": "B00007",
+    "BranchID": "BR001",
+    "TableNumber": 7,
+    "OrderCreatedTime": "2025-10-02T20:40:00Z",
+    "OrderStatus": "Đã hoàn thành",
+    "OrderTotalAmount": 420000,
+    "OrderDetails": [
+      { "DishName": "Lẩu Đài Bắc", "Quantity": 1, "Total": 180000, "Status": "Đã phục vụ", "Note": "" },
+      { "DishName": "Lẩu Mộc Thanh Trà", "Quantity": 1, "Total": 210000, "Status": "Đã phục vụ", "Note": "" },
+      { "DishName": "Trà đá", "Quantity": 6, "Total": 30000, "Status": "Đã phục vụ", "Note": "" }
+    ]
+  },
+  {
+    "OrderID": "O00015",
+    "BillID": "B00008",
+    "BranchID": "BR001",
+    "TableNumber": 8,
+    "OrderCreatedTime": "2025-10-02T10:10:00Z",
+    "OrderStatus": "Đã hoàn thành",
+    "OrderTotalAmount": 370000,
+    "OrderDetails": [
+      { "DishName": "Lẩu Kim chi", "Quantity": 1, "Total": 380000, "Status": "Đã phục vụ", "Note": "" },
+      { "DishName": "Trà đá", "Quantity": 5, "Total": 25000, "Status": "Đã phục vụ", "Note": "" }
+    ]
+  },
+  {
+    "OrderID": "O00016",
+    "BillID": "B00008",
+    "BranchID": "BR001",
+    "TableNumber": 8,
+    "OrderCreatedTime": "2025-10-02T14:55:00Z",
+    "OrderStatus": "Đã hoàn thành",
+    "OrderTotalAmount": 460000,
+    "OrderDetails": [
+      { "DishName": "Lẩu Mộc Thanh Trà", "Quantity": 2, "Total": 420000, "Status": "Đã phục vụ", "Note": "" },
+      { "DishName": "Coca-Cola lon", "Quantity": 2, "Total": 40000, "Status": "Đã phục vụ", "Note": "" }
+    ]
+  },
+  {
+    "OrderID": "O00017",
+    "BillID": "B00008",
+    "BranchID": "BR001",
+    "TableNumber": 8,
+    "OrderCreatedTime": "2025-10-02T19:10:00Z",
+    "OrderStatus": "Chưa hoàn thành",
+    "OrderTotalAmount": 485000,
+    "OrderDetails": [
+      { "DishName": "Lẩu Kim chi", "Quantity": 1, "Total": 380000, "Status": "Chưa phục vụ", "Note": "" },
+      { "DishName": "Thịt ba chỉ", "Quantity": 2, "Total": 120000, "Status": "Chưa phục vụ", "Note": "" },
+      { "DishName": "Trà đá", "Quantity": 1, "Total": 5000, "Status": "Chưa phục vụ", "Note": "" }
+    ]
+  },
+
+  {
+    "OrderID": "O00018",
+    "BillID": "B00009",
+    "BranchID": "BR002",
+    "TableNumber": 1,
+    "OrderCreatedTime": "2025-10-02T09:15:00Z",
+    "OrderStatus": "Đã hoàn thành",
+    "OrderTotalAmount": 874000,
+    "OrderDetails": [
+      { "DishName": "Lẩu Mala", "Quantity": 1, "Total": 360000, "Status": "Đã phục vụ", "Note": "" },
+      { "DishName": "Chả giò hải sản", "Quantity": 2, "Total": 150000, "Status": "Đã phục vụ", "Note": "" },
+      { "DishName": "Bào ngư", "Quantity": 2, "Total": 320000, "Status": "Đã phục vụ", "Note": "" },
+      { "DishName": "7 UP", "Quantity": 2, "Total": 44000, "Status": "Đã phục vụ", "Note": "" }
+    ]
+  },
+  {
+    "OrderID": "O00019",
+    "BillID": "B00010",
+    "BranchID": "BR002",
+    "TableNumber": 3,
+    "OrderCreatedTime": "2025-10-02T15:20:00Z",
+    "OrderStatus": "Đã hoàn thành",
+    "OrderTotalAmount": 104000,
+    "OrderDetails": [
+      { "DishName": "Khoai tây chiên", "Quantity": 1, "Total": 30000, "Status": "Đã phục vụ", "Note": "" },
+      { "DishName": "Salad trộn dầu giấm", "Quantity": 1, "Total": 30000, "Status": "Đã phục vụ", "Note": "" },
+      { "DishName": "7 UP", "Quantity": 2, "Total": 44000, "Status": "Đã phục vụ", "Note": "" }
+    ]
+  },
+  {
+    "OrderID": "O00020",
+    "BillID": "B00010",
+    "BranchID": "BR002",
+    "TableNumber": 3,
+    "OrderCreatedTime": "2025-10-02T16:00:00Z",
+    "OrderStatus": "Đã hoàn thành",
+    "OrderTotalAmount": 414000,
+    "OrderDetails": [
+      { "DishName": "Lẩu Cà chua", "Quantity": 1, "Total": 370000, "Status": "Đã phục vụ", "Note": "" },
+      { "DishName": "7 UP", "Quantity": 2, "Total": 44000, "Status": "Đã phục vụ", "Note": "" }
+    ]
+  },
+  {
+    "OrderID": "O00021",
+    "BillID": "B00011",
+    "BranchID": "BR002",
+    "TableNumber": 5,
+    "OrderCreatedTime": "2025-10-02T18:10:00Z",
+    "OrderStatus": "Đã hoàn thành",
+    "OrderTotalAmount": 1348000,
+    "OrderDetails": [
+      { "DishName": "Lẩu Mộc Thanh Trà", "Quantity": 1, "Total": 220000, "Status": "Đã phục vụ", "Note": "" },
+      { "DishName": "Lẩu Mala", "Quantity": 1, "Total": 360000, "Status": "Đã phục vụ", "Note": "" },
+      { "DishName": "Bia Tiger", "Quantity": 24, "Total": 768000, "Status": "Đã phục vụ", "Note": "" }
+    ]
+  },
+  {
+    "OrderID": "O00022",
+    "BillID": "B00011",
+    "BranchID": "BR002",
+    "TableNumber": 5,
+    "OrderCreatedTime": "2025-10-02T19:00:00Z",
+    "OrderStatus": "Chưa hoàn thành",
+    "OrderTotalAmount": 669000,
+    "OrderDetails": [
+      { "DishName": "Bào ngư", "Quantity": 1, "Total": 160000, "Status": "Chưa phục vụ", "Note": "" },
+      { "DishName": "Cá mút đá", "Quantity": 1, "Total": 125000, "Status": "Chưa phục vụ", "Note": "" },
+      { "DishName": "Bia Tiger", "Quantity": 12, "Total": 384000, "Status": "Chưa phục vụ", "Note": "" }
+    ]
+  }
+]

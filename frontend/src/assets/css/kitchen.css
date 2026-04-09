@@ -1,0 +1,186 @@
+/* frontend/src/assets/css/kitchen.css */
+
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden; /* Khóa cuộn của trình duyệt */
+    overscroll-behavior: none; /* ⭐ QUAN TRỌNG: Tắt hiệu ứng kéo nảy (Rubber-banding) */
+    touch-action: none; /* Tắt các thao tác chạm mặc định (nếu dùng màn cảm ứng) */
+}
+
+#root {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+/* Món bị hủy */
+.dish-row.cancelled {
+  text-decoration: line-through;
+  color: #bbb;
+  background: #f9f9f9;
+}
+
+/* Món đã phục vụ */
+.dish-row.served .name {
+  color: #27ae60; /* Màu xanh lá */
+}
+
+/* Tab trạng thái */
+.status-tabs button {
+  padding: 10px 20px;
+  margin-right: 5px;
+  border: 1px solid #ccc;
+  background: #fff;
+  cursor: pointer;
+}
+.status-tabs button.active-tab {
+  background: #007bff;
+  color: white;
+  border-color: #007bff;
+}
+
+/* --- CSS CHO DISH MANAGER --- */
+
+.dish-manage-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); /* 220px là kích thước tối thiểu của mỗi cột */
+  gap: 20px; /* Khoảng cách giữa các món */
+  padding: 20px;
+  background-color: #f0f2f5;
+  border-radius: 8px;
+  box-shadow: inset 0 0 10px rgba(0,0,0,0.05); /* Hiệu ứng đổ bóng nhẹ bên trong */
+}
+
+.dish-item {
+  background-color: #ffffff;
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  overflow: hidden; /* Quan trọng để ảnh không tràn ra ngoài */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08); /* Đổ bóng mạnh hơn cho từng món */
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  display: flex; /* Dùng flexbox để bố trí nội dung bên trong */
+  flex-direction: column; /* Sắp xếp theo cột */
+  align-items: center; /* Căn giữa theo chiều ngang */
+  text-align: center;
+  padding-bottom: 15px; /* Khoảng cách dưới cùng */
+  position: relative; /* Dùng cho status-badge */
+}
+
+.dish-item:hover {
+  transform: translateY(-5px); /* Hiệu ứng nhấc lên khi hover */
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.dish-item.out-of-stock {
+  opacity: 0.6; /* Làm mờ khi hết hàng */
+  background-color: #fdd; /* Nền đỏ nhạt khi hết hàng */
+  border-color: #ff9999;
+  pointer-events: none; /* Không cho phép click vào các nút khi hết hàng */
+}
+
+.dish-image-container {
+  width: 100%; /* Chiếm toàn bộ chiều rộng của item */
+  height: 150px; /* Chiều cao cố định cho tất cả ảnh */
+  overflow: hidden; /* Cắt ảnh nếu tràn */
+  background-color: #f0f0f0; /* Màu nền khi chưa có ảnh hoặc ảnh loading */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid #eee;
+  margin-bottom: 10px;
+}
+
+.dish-thumb {
+  width: 100%;  /* Ảnh chiếm toàn bộ chiều rộng của container */
+  height: 100%; /* Ảnh chiếm toàn bộ chiều cao của container */
+  object-fit: cover; /* ⭐ RẤT QUAN TRỌNG: Cắt ảnh để vừa vặn mà không làm biến dạng */
+  display: block; /* Loại bỏ khoảng trắng dưới ảnh */
+}
+
+.dish-info-body {
+  padding: 0 15px; /* Giữ khoảng cách hai bên cho tên và giá */
+  width: 100%; /* Đảm bảo chiếm đủ chiều rộng */
+}
+
+.dish-item h3 {
+  font-size: 1.15em;
+  color: #333;
+  margin: 10px 0 5px 0;
+  min-height: 40px; /* Đảm bảo tên món không bị nhảy vị trí nếu quá ngắn */
+  display: -webkit-box;
+  -webkit-line-clamp: 2; /* Giới hạn 2 dòng cho tên món */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.dish-item .price {
+  font-size: 1.1em;
+  color: #e67e22; /* Màu cam nổi bật cho giá */
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.toggle-buttons {
+  display: flex;
+  gap: 8px; /* Khoảng cách giữa 2 nút */
+  margin-top: 10px;
+  padding: 0 15px;
+  width: 100%;
+  justify-content: center; /* Căn giữa các nút */
+}
+
+.toggle-buttons button {
+  flex: 1; /* Cho các nút tự giãn ra */
+  padding: 8px 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.2s, color 0.2s;
+  font-size: 0.9em;
+}
+
+.toggle-buttons .btn-on {
+  background-color: #28a745; /* Xanh lá */
+  color: white;
+}
+.toggle-buttons .btn-on:hover:not(:disabled) {
+  background-color: #218838;
+}
+
+.toggle-buttons .btn-off {
+  background-color: #dc3545; /* Đỏ */
+  color: white;
+}
+.toggle-buttons .btn-off:hover:not(:disabled) {
+  background-color: #c82333;
+}
+
+.toggle-buttons button:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+  opacity: 0.8;
+}
+
+.status-badge {
+  position: absolute; /* Đặt lên trên góc ảnh */
+  top: 10px;
+  right: 10px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 0.8em;
+  color: white;
+  text-transform: uppercase;
+}
+
+.status-badge.active { /* Còn hàng */
+  background-color: #28a745; 
+}
+
+.status-badge.inactive { /* Hết hàng */
+  background-color: #dc3545;
+}

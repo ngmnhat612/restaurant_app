@@ -1,0 +1,17 @@
+[
+  { "AccountCode": "ban01_nt", "TableNumber": 1, "TableStatus": "Trống", "BranchID": "BR001" },
+  { "AccountCode": "ban02_nt", "TableNumber": 2, "TableStatus": "Đang sử dụng", "BranchID": "BR001" },
+  { "AccountCode": "ban03_nt", "TableNumber": 3, "TableStatus": "Trống", "BranchID": "BR001" },
+  { "AccountCode": "ban04_nt", "TableNumber": 4, "TableStatus": "Đang sử dụng", "BranchID": "BR001" },
+  { "AccountCode": "ban05_nt", "TableNumber": 5, "TableStatus": "Trống", "BranchID": "BR001" },
+  { "AccountCode": "ban06_nt", "TableNumber": 6, "TableStatus": "Trống", "BranchID": "BR001" },
+  { "AccountCode": "ban07_nt", "TableNumber": 7, "TableStatus": "Trống", "BranchID": "BR001" },
+  { "AccountCode": "ban08_nt", "TableNumber": 8, "TableStatus": "Đang sử dụng", "BranchID": "BR001" },
+
+  { "AccountCode": "ban01_hcm", "TableNumber": 1, "TableStatus": "Trống", "BranchID": "BR002" },
+  { "AccountCode": "ban02_hcm", "TableNumber": 2, "TableStatus": "Trống", "BranchID": "BR002" },
+  { "AccountCode": "ban03_hcm", "TableNumber": 3, "TableStatus": "Đang sử dụng", "BranchID": "BR002" },
+  { "AccountCode": "ban04_hcm", "TableNumber": 4, "TableStatus": "Trống", "BranchID": "BR002" },
+  { "AccountCode": "ban05_hcm", "TableNumber": 5, "TableStatus": "Đang sử dụng", "BranchID": "BR002" },
+  { "AccountCode": "ban06_hcm", "TableNumber": 6, "TableStatus": "Trống", "BranchID": "BR002" }
+]

@@ -1,0 +1,5 @@
+[
+  { "AccountTypeCode": "MANAGER", "AccountTypeName": "Quản lý" },
+  { "AccountTypeCode": "KITCHEN", "AccountTypeName": "Bếp" },
+  { "AccountTypeCode": "TABLE", "AccountTypeName": "Bàn" }
+]

@@ -1,0 +1,20 @@
+[
+  { "AccountCode": "quanly01_nt", "AccountName": "Trần Thanh Thúy", "AccountPassword": "123456", "AccountTypeCode": "MANAGER", "BranchID": "BR001" },
+  { "AccountCode": "quanly01_hcm", "AccountName": "Nguyễn Đăng Gia Huy", "AccountPassword": "123456", "AccountTypeCode": "MANAGER", "BranchID": "BR002" },
+  { "AccountCode": "bep01_nt", "AccountName": "Nguyễn Minh Nhật", "AccountPassword": "123456", "AccountTypeCode": "KITCHEN", "BranchID": "BR001" },
+  { "AccountCode": "bep01_hcm", "AccountName": "Nguyễn Minh Nhật", "AccountPassword": "123456", "AccountTypeCode": "KITCHEN", "BranchID": "BR002" },
+  { "AccountCode": "ban01_nt", "AccountName": "Bàn 1", "AccountPassword": "", "AccountTypeCode": "TABLE", "BranchID": "BR001" },
+  { "AccountCode": "ban02_nt", "AccountName": "Bàn 2", "AccountPassword": "", "AccountTypeCode": "TABLE", "BranchID": "BR001" },
+  { "AccountCode": "ban03_nt", "AccountName": "Bàn 3", "AccountPassword": "", "AccountTypeCode": "TABLE", "BranchID": "BR001" },
+  { "AccountCode": "ban04_nt", "AccountName": "Bàn 4", "AccountPassword": "", "AccountTypeCode": "TABLE", "BranchID": "BR001" },
+  { "AccountCode": "ban05_nt", "AccountName": "Bàn 5", "AccountPassword": "", "AccountTypeCode": "TABLE", "BranchID": "BR001" },
+  { "AccountCode": "ban06_nt", "AccountName": "Bàn 6", "AccountPassword": "", "AccountTypeCode": "TABLE", "BranchID": "BR001" },
+  { "AccountCode": "ban07_nt", "AccountName": "Bàn 7", "AccountPassword": "", "AccountTypeCode": "TABLE", "BranchID": "BR001" },
+  { "AccountCode": "ban08_nt", "AccountName": "Bàn 8", "AccountPassword": "", "AccountTypeCode": "TABLE", "BranchID": "BR001" },
+  { "AccountCode": "ban01_hcm", "AccountName": "Bàn 1", "AccountPassword": "", "AccountTypeCode": "TABLE", "BranchID": "BR002" },
+  { "AccountCode": "ban02_hcm", "AccountName": "Bàn 2", "AccountPassword": "", "AccountTypeCode": "TABLE", "BranchID": "BR002" },
+  { "AccountCode": "ban03_hcm", "AccountName": "Bàn 3", "AccountPassword": "", "AccountTypeCode": "TABLE", "BranchID": "BR002" },
+  { "AccountCode": "ban04_hcm", "AccountName": "Bàn 4", "AccountPassword": "", "AccountTypeCode": "TABLE", "BranchID": "BR002" },
+  { "AccountCode": "ban05_hcm", "AccountName": "Bàn 5", "AccountPassword": "", "AccountTypeCode": "TABLE", "BranchID": "BR002" },
+  { "AccountCode": "ban06_hcm", "AccountName": "Bàn 6", "AccountPassword": "", "AccountTypeCode": "TABLE", "BranchID": "BR002" }
+]

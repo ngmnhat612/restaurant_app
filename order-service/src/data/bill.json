@@ -1,0 +1,124 @@
+[
+  {
+    "BillID": "B00001",
+    "BranchID": "BR001",
+    "TableNumber": 1,
+    "AccountCode": "quanly01_nt_nt",
+    "BillCreatedTime": "2025-10-02T10:05:00Z",
+    "BillPaymentTime": "2025-10-02T10:20:00Z",
+    "Orders": ["O001", "O002"],
+    "BillStatus": "Đã thanh toán",
+    "BillTotalAmount": 800000
+  },
+  {
+    "BillID": "B00002",
+    "BranchID": "BR001",
+    "TableNumber": 2,
+    "AccountCode": "quanly01_nt",
+    "BillCreatedTime": "2025-10-02T11:10:00Z",
+    "BillPaymentTime": null,
+    "Orders": ["O003", "O004"],
+    "BillStatus": "Chưa thanh toán",
+    "BillTotalAmount": 1000000
+  },
+  {
+    "BillID": "B00003",
+    "BranchID": "BR001",
+    "TableNumber": 3,
+    "AccountCode": "quanly02",
+    "BillCreatedTime": "2025-10-02T13:25:00Z",
+    "BillPaymentTime": "2025-10-02T13:40:00Z",
+    "Orders": ["O005"],
+    "BillStatus": "Đã thanh toán",
+    "BillTotalAmount": 245000
+  },
+  {
+    "BillID": "B00004",
+    "BranchID": "BR001",
+    "TableNumber": 4,
+    "AccountCode": "quanly01_nt",
+    "BillCreatedTime": "2025-10-02T10:40:00Z",
+    "BillPaymentTime": null,
+    "Orders": ["O006", "O007", "O008"],
+    "BillStatus": "Chưa thanh toán",
+    "BillTotalAmount": 1380000
+  },
+  {
+    "BillID": "B00005",
+    "BranchID": "BR001",
+    "TableNumber": 5,
+    "AccountCode": "quanly02",
+    "BillCreatedTime": "2025-10-02T16:45:00Z",
+    "BillPaymentTime": "2025-10-02T17:00:00Z",
+    "Orders": ["O009"],
+    "BillStatus": "Đã thanh toán",
+    "BillTotalAmount": 250000
+  },
+  {
+    "BillID": "B00006",
+    "BranchID": "BR001",
+    "TableNumber": 6,
+    "AccountCode": "quanly01_nt",
+    "BillCreatedTime": "2025-10-02T10:20:00Z",
+    "BillPaymentTime": "2025-10-02T10:35:00Z",
+    "Orders": ["O010", "O011"],
+    "BillStatus": "Đã thanh toán",
+    "BillTotalAmount": 950000
+  },
+  {
+    "BillID": "B00007",
+    "BranchID": "BR001",
+    "TableNumber": 7,
+    "AccountCode": "quanly01_nt",
+    "BillCreatedTime": "2025-10-02T11:30:00Z",
+    "BillPaymentTime": "2025-10-02T11:50:00Z",
+    "Orders": ["O012", "O013", "O014"],
+    "BillStatus": "Đã thanh toán",
+    "BillTotalAmount": 1070000
+  },
+  {
+    "BillID": "B00008",
+    "BranchID": "BR001",
+    "TableNumber": 8,
+    "AccountCode": "quanly01_nt",
+    "BillCreatedTime": "2025-10-02T10:10:00Z",
+    "BillPaymentTime": null,
+    "Orders": ["O015", "O016", "O017"],
+    "BillStatus": "Chưa thanh toán",
+    "BillTotalAmount": 1370000
+  },
+
+  {
+    "BillID": "B00009",
+    "BranchID": "BR002",
+    "TableNumber": 1,
+    "AccountCode": "quanly01_hcm",
+    "BillCreatedTime": "2025-10-02T09:15:00Z",
+    "BillPaymentTime": "2025-10-02T09:45:00Z",
+    "Orders": ["O00018"],
+    "BillStatus": "Đã thanh toán",
+    "BillTotalAmount": 874000
+  },
+  {
+    "BillID": "B00010",
+    "BranchID": "BR002",
+    "TableNumber": 3,
+    "AccountCode": "quanly01_hcm",
+    "BillCreatedTime": "2025-10-02T15:20:00Z",
+    "BillPaymentTime": null,
+    "Orders": ["O00019", "O00020"],
+    "BillStatus": "Chưa thanh toán",
+    "BillTotalAmount": 518000
+  },
+  {
+    "BillID": "B00011",
+    "BranchID": "BR002",
+    "TableNumber": 5,
+    "AccountCode": "quanly01_hcm",
+    "BillCreatedTime": "2025-10-02T18:10:00Z",
+    "BillPaymentTime": null,
+    "Orders": ["O00021", "O00022"],
+    "BillStatus": "Chưa thanh toán",
+    "BillTotalAmount": 2017000
+  }
+]

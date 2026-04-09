@@ -1,0 +1,42 @@
+[
+  { "BranchID": "BR001", "DishID": "L01", "IsAvailable": true, "BranchPrice": 210000 },
+  { "BranchID": "BR001", "DishID": "L02", "IsAvailable": true, "BranchPrice": 180000 },
+  { "BranchID": "BR001", "DishID": "L03", "IsAvailable": true, "BranchPrice": 380000 },
+  { "BranchID": "BR001", "DishID": "L04", "IsAvailable": true, "BranchPrice": 330000 },
+
+  { "BranchID": "BR001", "DishID": "KV01", "IsAvailable": true, "BranchPrice": 65000 },
+  { "BranchID": "BR001", "DishID": "KV02", "IsAvailable": true, "BranchPrice": 70000 },
+  { "BranchID": "BR001", "DishID": "KV03", "IsAvailable": true, "BranchPrice": 30000 },
+  { "BranchID": "BR001", "DishID": "KV04", "IsAvailable": true, "BranchPrice": 25000 },
+
+  { "BranchID": "BR001", "DishID": "GT01", "IsAvailable": true, "BranchPrice": 60000 },
+  { "BranchID": "BR001", "DishID": "GT02", "IsAvailable": true, "BranchPrice": 50000 },
+  { "BranchID": "BR001", "DishID": "GT03", "IsAvailable": true, "BranchPrice": 15000 },
+  { "BranchID": "BR001", "DishID": "GT04", "IsAvailable": true, "BranchPrice": 20000 },
+
+  { "BranchID": "BR001", "DishID": "TU01", "IsAvailable": true, "BranchPrice": 20000 },
+  { "BranchID": "BR001", "DishID": "TU02", "IsAvailable": true, "BranchPrice": 35000 },
+  { "BranchID": "BR001", "DishID": "TU03", "IsAvailable": true, "BranchPrice": 5000 },
+  { "BranchID": "BR001", "DishID": "TU04", "IsAvailable": true, "BranchPrice": 15000 },
+
+  
+  { "BranchID": "BR002", "DishID": "L01", "IsAvailable": true, "BranchPrice": 220000 },
+  { "BranchID": "BR002", "DishID": "L02", "IsAvailable": true, "BranchPrice": 190000 },
+  { "BranchID": "BR002", "DishID": "L05", "IsAvailable": true, "BranchPrice": 360000 },
+  { "BranchID": "BR002", "DishID": "L06", "IsAvailable": true, "BranchPrice": 370000 },
+
+  { "BranchID": "BR002", "DishID": "KV01", "IsAvailable": true, "BranchPrice": 65000 },
+  { "BranchID": "BR002", "DishID": "KV02", "IsAvailable": true, "BranchPrice": 75000 },
+  { "BranchID": "BR002", "DishID": "KV03", "IsAvailable": true, "BranchPrice": 30000 },
+  { "BranchID": "BR002", "DishID": "KV04", "IsAvailable": true, "BranchPrice": 30000 },
+
+  { "BranchID": "BR002", "DishID": "GT01", "IsAvailable": true, "BranchPrice": 65000 },
+  { "BranchID": "BR002", "DishID": "GT02", "IsAvailable": true, "BranchPrice": 55000 },
+  { "BranchID": "BR002", "DishID": "GT05", "IsAvailable": true, "BranchPrice": 160000 },
+  { "BranchID": "BR002", "DishID": "GT06", "IsAvailable": true, "BranchPrice": 125000 },
+
+  { "BranchID": "BR002", "DishID": "TU01", "IsAvailable": true, "BranchPrice": 20000 },
+  { "BranchID": "BR002", "DishID": "TU02", "IsAvailable": true, "BranchPrice": 35000 },
+  { "BranchID": "BR002", "DishID": "TU05", "IsAvailable": true, "BranchPrice": 32000 },
+  { "BranchID": "BR002", "DishID": "TU06", "IsAvailable": true, "BranchPrice": 22000 }
+]

@@ -1,0 +1,203 @@
+[
+  {
+    "DishTypeCode": "LAU",
+    "DishID": "L01",
+    "DishName": "Lẩu Mộc Thanh Trà",
+    "DishPrice": 210000,
+    "DishStatus": "Còn",
+    "DishImage": "LAU_lau_moc_thanh_tra.jpg",
+    "DishDescription": "" 
+  },
+  {
+    "DishTypeCode": "LAU",
+    "DishID": "L02",
+    "DishName": "Lẩu Đài Bắc",
+    "DishPrice": 180000,
+    "DishStatus": "Còn",
+    "DishImage": "LAU_lau_dai_bac.jpg",
+    "DishDescription": "" 
+  },
+  {
+    "DishTypeCode": "LAU",
+    "DishID": "L03",
+    "DishName": "Lẩu Kim chi",
+    "DishPrice": 380000,
+    "DishStatus": "Còn",
+    "DishImage": "LAU_lau_kim_chi.jpg",
+    "DishDescription": "" 
+  },
+  {
+    "DishTypeCode": "LAU",
+    "DishID": "L04",
+    "DishName": "Lẩu Nấm",
+    "DishPrice": 330000,
+    "DishStatus": "Còn",
+    "DishImage": "LAU_lau_nam.jpg",
+    "DishDescription": "" 
+  },
+    {
+    "DishTypeCode": "LAU",
+    "DishID": "L05",
+    "DishName": "Lẩu Mala",
+    "DishPrice": 350000,
+    "DishStatus": "Còn",
+    "DishImage": "LAU_mala.jpg",
+    "DishDescription": "" 
+  },
+  {
+    "DishTypeCode": "LAU",
+    "DishID": "L06",
+    "DishName": "Lẩu Cà chua",
+    "DishPrice": 360000,
+    "DishStatus": "Còn",
+    "DishImage": "LAU_ca_chua.jpg",
+    "DishDescription": "" 
+  },
+
+  {
+    "DishTypeCode": "KHAIVI",
+    "DishID": "KV01",
+    "DishName": "Gỏi cuốn tôm thịt",
+    "DishPrice": 65000,
+    "DishStatus": "Còn",
+    "DishImage": "KV_goi_cuon_tom_thit.jpg",
+    "DishDescription": "" 
+  },
+  {
+    "DishTypeCode": "KHAIVI",
+    "DishID": "KV02",
+    "DishName": "Chả giò hải sản",
+    "DishPrice": 70000,
+    "DishStatus": "Còn",
+    "DishImage": "KV_cha_gio_hai_san.jpg",
+    "DishDescription": "" 
+  },
+  {
+    "DishTypeCode": "KHAIVI",
+    "DishID": "KV03",
+    "DishName": "Khoai tây chiên",
+    "DishPrice": 30000,
+    "DishStatus": "Còn",
+    "DishImage": "KV_khoai_tay_chien.jpg",
+    "DishDescription": "" 
+  },
+  {
+    "DishTypeCode": "KHAIVI",
+    "DishID": "KV04",
+    "DishName": "Salad trộn dầu giấm",
+    "DishPrice": 25000,
+    "DishStatus": "Còn",
+    "DishImage": "KV_salad_dau_giam.jpg",
+    "DishDescription": "" 
+  },
+
+  {
+    "DishTypeCode": "GOITHEM",
+    "DishID": "GT01",
+    "DishName": "Thịt ba chỉ",
+    "DishPrice": 60000,
+    "DishStatus": "Còn",
+    "DishImage": "GT_thit_ba_chi.jpg",
+    "DishDescription": "" 
+  },
+  {
+    "DishTypeCode": "GOITHEM",
+    "DishID": "GT02",
+    "DishName": "Thịt heo",
+    "DishPrice": 50000,
+    "DishStatus": "Còn",
+    "DishImage": "GT_thit_heo.jpg",
+    "DishDescription": "" 
+  },
+  {
+    "DishTypeCode": "GOITHEM",
+    "DishID": "GT03",
+    "DishName": "Bún thêm",
+    "DishPrice": 15000,
+    "DishStatus": "Còn",
+    "DishImage": "GT_bun_them.jpg",
+    "DishDescription": "" 
+  },
+  {
+    "DishTypeCode": "GOITHEM",
+    "DishID": "GT04",
+    "DishName": "Rau thêm",
+    "DishPrice": 20000,
+    "DishStatus": "Còn",
+    "DishImage": "GT_rau_them.jpg",
+    "DishDescription": "" 
+  },
+    {
+    "DishTypeCode": "GOITHEM",
+    "DishID": "GT05",
+    "DishName": "Bào ngư",
+    "DishPrice": 150000,
+    "DishStatus": "Còn",
+    "DishImage": "GT_bao_ngu.jpg",
+    "DishDescription": "" 
+  },
+  {
+    "DishTypeCode": "GOITHEM",
+    "DishID": "GT06",
+    "DishName": "Cá mút đá",
+    "DishPrice": 120000,
+    "DishStatus": "Còn",
+    "DishImage": "GT_ca_mut_da.jpg",
+    "DishDescription": "" 
+  },
+
+  {
+    "DishTypeCode": "THUCUONG",
+    "DishID": "TU01",
+    "DishName": "Coca-Cola lon",
+    "DishPrice": 20000,
+    "DishStatus": "Còn",
+    "DishImage": "TU_coca_cola.jpg",
+    "DishDescription": "" 
+  },
+  {
+    "DishTypeCode": "THUCUONG",
+    "DishID": "TU02",
+    "DishName": "Bia Heineken",
+    "DishPrice": 35000,
+    "DishStatus": "Còn",
+    "DishImage": "TU_bia_heineken.jpg",
+    "DishDescription": "" 
+  },
+  {
+    "DishTypeCode": "THUCUONG",
+    "DishID": "TU03",
+    "DishName": "Trà đá",
+    "DishPrice": 5000,
+    "DishStatus": "Còn",
+    "DishImage": "TU_tra_da.jpg",
+    "DishDescription": "" 
+  },
+  {
+    "DishTypeCode": "THUCUONG",
+    "DishID": "TU04",
+    "DishName": "Nước suối Lavie",
+    "DishPrice": 15000,
+    "DishStatus": "Còn",
+    "DishImage": "TU_nuoc_suoi_lavie.jpg",
+    "DishDescription": "" 
+  },
+  {
+    "DishTypeCode": "THUCUONG",
+    "DishID": "TU05",
+    "DishName": "Bia Tiger",
+    "DishPrice": 30000,
+    "DishStatus": "Còn",
+    "DishImage": "TU_bia_tiger.jpg",
+    "DishDescription": "" 
+  },
+  {
+    "DishTypeCode": "THUCUONG",
+    "DishID": "TU06",
+    "DishName": "7 UP",
+    "DishPrice": 20000,
+    "DishStatus": "Còn",
+    "DishImage": "TU_7_up.jpg",
+    "DishDescription": "" 
+  }
+]
